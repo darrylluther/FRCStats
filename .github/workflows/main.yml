@@ -34,7 +34,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           folder: dist/Web
-          repository-name: darrylluther.github.io
+          repository-name: darrylluther/darrylluther.github.io
           branch: main
           target-folder: FRCStats
           
