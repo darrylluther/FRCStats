@@ -33,6 +33,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.PAT }}
+          folder: dist/Web
           repository-name: darrylluther.github.io
           branch: main
           target-folder: FRCTest
