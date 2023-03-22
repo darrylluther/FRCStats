@@ -32,9 +32,6 @@ jobs:
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.PAT }}
           folder: dist/Web/wwwroot
-          repository-name: darrylluther/darrylluther.github.io
-          branch: main
-          target-folder: FRCStats
+          branch: gh-pages
           
