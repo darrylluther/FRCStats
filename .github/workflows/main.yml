@@ -36,5 +36,5 @@ jobs:
           folder: dist/Web
           repository-name: darrylluther.github.io
           branch: main
-          target-folder: FRCTest
+          target-folder: FRCStats
           
